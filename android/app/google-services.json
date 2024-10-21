@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "359853604326",
+    "project_id": "noamooz-app",
+    "storage_bucket": "noamooz-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359853604326:android:1668c528bc984ae4b8ea27",
+        "android_client_info": {
+          "package_name": "com.lexaplus.noamooz_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkOSdrtfyEtO2pQZ_oiz8NrsTm6breVDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
