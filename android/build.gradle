@@ -11,11 +11,11 @@ subprojects {
 }
 subprojects {
     afterEvaluate { project ->
-        if (project.hasProperty('android')) {
+        if (project.plugins.hasPlugin("com.android.application") ||
+                project.plugins.hasPlugin("com.android.library")) {
             project.android {
-                if (namespace == null) {
-                    namespace project.group
-                }
+                compileSdkVersion 34
+                buildToolsVersion "34.0.0"
             }
         }
     }
